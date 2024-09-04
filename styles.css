@@ -1,8 +1,92 @@
 * {
     box-sizing: border-box;
     margin: 0;
+
+    /* TODO:: REMOVE BORDERS*/
+    border: .5px solid salmon;
 }
 
-.body {
-    line-height: 1.5;
+body {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+body>* {
+    padding-inline: 10%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    padding-block: 20px;
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    gap: 24px;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero-section {
+    background-color: #1F2937;
+    padding-block: 80px;
+
+    display: flex;
+    gap: 20px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    flex: 1;
+}
+
+.hero-img {
+    flex: 1;
+    /* height: 300px; */
+    width: auto;
+}
+
+.hero-main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-sub-text {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.hero-content button {
+    align-self: flex-start;
+
+    padding: 6px 24px;
+}
+
+.hero-section,
+.card-section,
+.quote-section,
+.cta-section {
+    flex: 1;
 }
