@@ -2,9 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     font-family: Roboto;
-
-    /* TODO:: REMOVE BORDERS*/
-    /* border: .5px solid salmon; */
 }
 
 body {
@@ -18,10 +15,11 @@ body>* {
     padding-inline: 22%;
 }
 
-.header {
+.header, .footer {
     display: flex;
     align-items: center;
     background-color: #1F2937;
+    padding-block: 30px;
 }
 
 .hero-section,
@@ -179,4 +177,11 @@ body>* {
     border-radius: 6px;
     color: white;
     padding: 6px 32px;
+}
+
+/* Footer */
+.footer {
+    color: white;
+    
+    justify-content: center;
 }
