@@ -55,6 +55,7 @@ body>* {
     padding-block: 80px;
 
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -67,9 +68,10 @@ body>* {
 }
 
 .hero-img {
-    flex: 1 0 0;
-    /* height: 300px; */
-    width: auto;
+    height: 300px;
+    border-radius: 2px;
+
+    flex: 1;
 }
 
 .hero-main-text {
