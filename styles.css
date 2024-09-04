@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: Roboto;
 
     /* TODO:: REMOVE BORDERS*/
     /* border: .5px solid salmon; */
@@ -14,7 +15,7 @@ body {
 }
 
 body>* {
-    padding-inline: 25%;
+    padding-inline: 22%;
 }
 
 .header {
@@ -80,14 +81,14 @@ body>* {
 }
 
 .hero-sub-text {
-    color: #F9FAF8;
-    font-size: 24px;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .hero-content button {
     align-self: flex-start;
 
-    padding: 6px 24px;
+    padding: 6px 32px;
 }
 
 .card-section {
@@ -148,6 +149,34 @@ body>* {
 
 .quote-author {
     font-size: 20px;
-    
+
     align-self: flex-end;
+}
+
+/* Call to Action section */
+.cta-section {
+    padding-block: 80px;
+}
+
+.cta {
+    padding: 40px 100px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 6px;
+    color: white;
+    padding: 6px 32px;
 }
