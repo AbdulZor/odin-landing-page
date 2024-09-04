@@ -84,9 +84,14 @@ body>* {
 }
 
 .hero-content button {
-    align-self: flex-start;
-
+    color: white;
     padding: 6px 32px;
+    background-color: #3882F6;
+    font-weight: 900;
+    border: none;
+    border-radius: 6px;
+
+    align-self: flex-start;
 }
 
 .card-section {
